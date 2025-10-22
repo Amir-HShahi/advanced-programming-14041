@@ -2,8 +2,8 @@ public class ArrayMemory {
     Student[] students = new Student[10];
 
     void init() {
-        for (Student student : students) {
-            student = new Student();
+        for (int i = 0; i < students.length; i++) {
+            students[i] = new Student();
         }
     }
 

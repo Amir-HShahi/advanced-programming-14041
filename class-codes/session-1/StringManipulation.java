@@ -20,7 +20,7 @@ public class StringManipulation {
         String trim = "   This string intentionally has whitespace        ";
         System.out.println(trim.trim());
 
-        String blank = "            "; // contains whitespace but length is zero
+        String blank = "            "; 
         System.out.println(blank.isBlank());
         System.out.println(blank.isEmpty());
     }
